@@ -1,0 +1,29 @@
+-- Create Active User Table
+CREATE TABLE customers_table (
+customer_id INT PRIMARY KEY NOT NULL,
+customer_count INT
+);
+CREATE TABLE products_table (
+product_id INT PRIMARY KEY NOT NULL,
+product_title TEXT
+);
+CREATE TABLE review_id_table (
+review_id TEXT PRIMARY KEY NOT NULL,
+customer_id INT,
+product_id INT,
+product_parent INT,
+review_date DATE
+);
+CREATE TABLE vine_table (
+review_id TEXT PRIMARY KEY NOT NULL,
+star_rating INT,
+helpful_votes INT,
+total_votes INT,
+vine TEXT,
+verified_purchase TEXT
+);
+
+SELECT * FROM customers_table;
+SELECT * FROM products_table;
+SELECT * FROM review_id_table;
+SELECT * FROM vine_table;
