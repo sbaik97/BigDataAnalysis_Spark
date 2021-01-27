@@ -16,7 +16,6 @@ constitutes big data and how it's handled. We use PySpark, which has become the 
 * Google Colab, Jupyter Notebook 6.1.4 with OS, spark-3.0.1, nltk, postgresql-42.2.16,  pgAdmin-4
 
 * Data Source: 
-
 amazon_reviews_us_Books_v1_00.tsv.gz : https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_00.tsv.gz
 
 
