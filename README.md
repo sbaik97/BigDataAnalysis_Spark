@@ -62,39 +62,39 @@ Here are the two captured table images in the pgAdmins.
 
 3. Create a new DataFrame that retrieves all the rows where a review was written as part of the Vine program (paid), vine == 'Y'
 
-*  helpful written review as part of the Vine program (paid)
+*  Helpful written review as part of the Vine program (paid)
 
 ![helpful_paid_df](image/helpful_paid_df.png)
 
 4. Repeat Step 3, but this time retrieve all the rows where the review was not part of the Vine program (unpaid), vine == 'N'.
 
- helpful written review as part of the nonVine program (nonpaid)
+ * Helpful written review as part of the nonVine program (nonpaid)
 
 ![helpful_nonpaid_df](image/helpful_nonpaid_df.png)
 
 
-During this analysis there are three questions.I wanted to answer these questions.
+**During this analysis there are three questions.**
 
 1. How many Vine reviews and non-Vine reviews were there?
+2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
-**Reply** 
+
+**I wanted to answer these questions.**
+1. The total number of reviews and percentate of 5-star reviews
 
 ![perentage_5star_helpful_reviews](image/per_5star_helpful_reviews.png)
 
-2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-
-**Reply**
+2. The number paid vine review and percentate of 5-star reviews
 
 ![perentage_5star_helpful_paid_reviews](image/per_5star_helpful_paid_reviews.png)
 
-3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-
-**Reply**
+3. The number nonpaid vine review and percentate of 5-star reviews
 
 ![perentage_5star_helpful_nonpaid_reviews](image/per_5star_helpful_nonpaid_reviews.png)
 
 
-
 ## Summary
 
-After looking that the results, I would conclude that there is a positivity bias for reviews in the Vine program. It is important to note that while the non-vine sample size was very large, the vine sample size was less than 100 entries. While 94 entires is still a decent number to sample with, it could lead a less signifcant result. In addition to the current analysis, I could take it a step further and see the percentage of those who purchased the product by filtering through the verified_purchase column to either confirm or fail to confirm if there is a positivity bias for reviews in the Vine program.
+Herein, I picked the book category in the Amazon review datasets and use PySpark to
+perform the ETL process and determine if there is any bias toward favorable reviews from Vine members in your dataset. After looking the analyses and results, I found that there is a negative bias for reviews in the Vine program (40.52 vs. 45.72 %). Note that that while the non-vine sample size (109297) was very larger than vine sample (5012). It would be better to NTL analysis using the review_body, train and fit with the model determines whether a review was positive or negative without having already supplied in the data.
