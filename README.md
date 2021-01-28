@@ -21,8 +21,7 @@ amazon_reviews_us_Books_v1_00.tsv.gz : https://s3.amazonaws.com/amazon-reviews-p
 
 ## Task 1. Perform ETL on Amazon Product Reviews
 
-**Objects**: Analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. We need to pick one of these datasets and use PySpark to
-perform the extract, transform, load (ETL) process to extract the dataset, transform the data,connect to an AWS RDS instance, and load the transformed data into pgAdmin.
+**Objects**: Analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Pick one of these datasets and use PySpark to perform the extract, transform, load (ETL) process to extract the dataset, transform the data,connect to an AWS RDS instance, and load the transformed data into pgAdmin.
 
 
 **Process**: I created an AWS RDS database with tables in pgAdmin and pick the **book categiry** from the  Amazon Review datasets (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_00.tsv.gz). And I performed an ETL process the Amazon Review datasets the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded.
@@ -42,7 +41,7 @@ Here are the two captured table images in the pgAdmins.
 
 ### Task 2. Perform ETL on Amazon Product Reviews
 
-**Objects**: Using your knowledge of PySpark, Pandas, or SQL, you’ll determine if there is any bias towards reviews that were written as part of the Vine program.For this analysis, you'll determine if having a paid Vine review makes a difference in the percentage of 5-star reviews.
+**Objects**: Using your knowledge of PySpark, Pandas, or SQL, you’ll determine if there is any bias towards reviews that were written as part of the Vine program. For this analysis, I determined if having a paid Vine review makes a difference in the percentage of 5-star reviews.
 
 
 **Process using the PySpark**: 
