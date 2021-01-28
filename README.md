@@ -19,7 +19,8 @@ constitutes big data and how it's handled. We use PySpark, which has become the 
 amazon_reviews_us_Books_v1_00.tsv.gz : https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_00.tsv.gz
 
 
-## Task 1. Perform ETL on Amazon Product Reviews
+## Tasks
+### Task 1. Perform ETL on Amazon Product Reviews
 
 **Objects**: Analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Pick one of these datasets and use PySpark to perform the extract, transform, load (ETL) process to extract the dataset, transform the data,connect to an AWS RDS instance, and load the transformed data into pgAdmin.
 
