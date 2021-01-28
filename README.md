@@ -94,5 +94,4 @@ Here are the two captured table images in the pgAdmins.
 
 ## Summary
 
-Herein, I picked the book category in the Amazon review datasets and use PySpark to
-perform the ETL process and determine if there is any bias toward favorable reviews from Vine members in your dataset. After looking the analyses and results, I found that there is a negative bias for reviews in the Vine program (40.52 vs. 45.72 %). Note that that while the non-vine sample size (109297) was very larger than vine sample (5012). It would be better to NTL analysis using the review_body, train and fit with the model determines whether a review was positive or negative without having already supplied in the data.
+Herein, I picked the book category in the Amazon review datasets and use PySpark to perform the ETL process and determine if there is any bias toward favorable reviews from Vine members in your dataset. After looking the analyses and results, I found that there is a negative bias for reviews in the Vine program (40.52 vs. 45.72 %). Note that that while the non-vine sample size (109297) was very larger than vine sample (5012). It would be better to NTL analysis using the review_body, train and fit with the model determines whether a review was positive or negative without having already supplied in the data.
