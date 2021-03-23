@@ -2,7 +2,7 @@
 
 ## Overview
 "Big data" is a popular buzzword in the data industry today. Herein, we covered what
-constitutes big data and how it's handled. We use PySpark, which has become the leading technology for handling big data and hande the natural language processing (NLP) in relation to big data. We'll save the processed data to cloud services, which let us store large amounts of data at remote locations rather than locally and allow as for more scalability and performance. We'll use the most popular cloud service, Amazon Web Services (AWS).
+constitutes big data and how it's handled. We use PySpark, which has become the leading technology for handling big data and the natural language processing (NLP) in relation to big data. We'll save the processed data to cloud services, which let us store large amounts of data at remote locations rather than locally and allow as for more scalability and performance. We'll use the most popular cloud service, Amazon Web Services (AWS).
 
 
 ## Objects
